@@ -71,7 +71,7 @@ Override environment variables if needed: **`YT_DLP`**, **`FFMPEG`**.
 
 - [Node.js](https://nodejs.org/) 18+ (20+ recommended)
 - [Rust](https://rustup.rs/) stable + **MSVC** (Visual Studio Build Tools) on Windows
-- Before **`npm run tauri build`**, place **`tools/yt-dlp.exe`** and **`tools/ffmpeg/bin/`** (with `ffmpeg.exe` and any required DLLs) under the repo root, or the resource step may fail.
+- Before **`npm run tauri build`**, place **`tools/yt-dlp.exe`** and **`tools/ffmpeg/bin/ffmpeg.exe`** (and DLLs your build needs) under the repo root, or the resource step may fail. Those binaries are **not** stored in this repo (GitHub [100 MB file limit](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)); see **[tools/README.md](./tools/README.md)**.
 
 **Commands**
 
