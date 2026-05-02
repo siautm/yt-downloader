@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.tmp-bili.json
+
+# Rust / Tauri
+src-tauri/target/
+
+# Large CLIs — download locally (see tools/README.md). GitHub limit 100 MB per file.
+tools/yt-dlp.exe
+tools/ffmpeg/bin/*.exe
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
